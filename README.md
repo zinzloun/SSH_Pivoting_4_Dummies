@@ -2,7 +2,7 @@
 ![SSH Tunnel](banner.png)
 
 ## Why?
-Because I've always found it hard to understand how SSH forwarding works (and still it's so 😃), especially playing with ports, so I decide to illustrate three simple scenarios, that involve four use cases, to clarify the concepts. Actually they are taken from real engagment, except the third scenario. Here I assume that we have already compromised a dual homed machine from our attacker machine, located in the external network. The compromised machine acts as a jump-box to the internal network, where the final victim is located. Follows the involved systems specifications:
+Because I've always found it hard to understand how SSH forwarding works (and still it's so 😃), especially playing with ports, so I decide to illustrate three simple scenarios, that involve four use cases, to clarify the concepts. Actually they are taken from real engagment, except the second scenario. Here I assume that we have already compromised a dual homed machine from our attacker machine, located in the external network. The compromised machine acts as a jump-box to the internal network, where the final victim is located. Follows the involved systems specifications:
 1. Attacker machine: Windows 11*, located in the externale (fake) net: 10.103.5.107/24
 1. Jump-box: Ubuntu server 22.04**, dual homed (internal and external net): 10.103.5.104/24, 192.168.193.3/24
 1. The final victim: Windows server STD 2022, located in the internal net: 192.168.193.4/24
