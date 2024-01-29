@@ -16,7 +16,7 @@ Now, let's proceed to analyze them in details.
 ## Scenario #1: get a reverse shell
 ### 1.1 Expose the attacker web server to the victim
 In order to accomplish our mission, first we need to expose our web server to the victim, to make available netcat for download. Of course we need to lure the victim to make such action, here we must make use of some social engineering techniques, that is out of the scope of this tutorial.
-Since the victim cannot directly accesso our web server we need to make it available through the jump-box, that we have already compromised. The steps to follows are:
+Since the victim cannot directly access our web server we need to make it available through the jump-box, that we have already compromised. The steps to follows are:
 
 1. On our attacker machine lunch the web server, listening on port 8000
 2. On the jump-box expose the attacker web server on port 8080. Here we will use ssh local forwarding (-L) in the following format: 
