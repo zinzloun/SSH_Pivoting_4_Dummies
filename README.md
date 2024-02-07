@@ -1,4 +1,4 @@
-# SSH port forward pivoting for Dummies
+# SSH port forward (pivoting) for Dummies
 ![SSH Tunnel](banner.png)
 
 ## Why?
